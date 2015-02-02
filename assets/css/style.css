@@ -220,19 +220,19 @@ pre {
 }@include text-shadow(none);
 /* - Font weight classes - */
 .black {
-  font-weight: bolder !important;
+  font-weight: 900 !important;
 }
 .bold {
-  font-weight: bold !important;
+  font-weight: 600 !important;
 }
 .regular {
-  font-weight: normal !important;
+  font-weight: 400 !important;
 }
 .light {
-  font-weight: lighter !important;
+  font-weight: 300 !important;
 }
 .lighter {
-  font-weight: lighter !important;
+  font-weight: 300 !important;
 }
 /* - Font size classes - */
 .small {
@@ -240,7 +240,7 @@ pre {
   line-height: 24px;
 }
 .super {
-  font-size: 60px;
+  font-size: 44px;
   font-weight: bold;
   line-height: 1;
   text-transform: uppercase;
@@ -250,10 +250,11 @@ pre {
   line-height: 1.5em;
 }
 .hyper {
-  font-size: 72px;
+  font-size: 44px;
   font-weight: bold;
   text-align: center;
   line-height: 1;
+  text-transform: uppercase;
 }
 /* - Text aligns classes - */
 .text-left {
@@ -412,7 +413,7 @@ blockquote:before {
   background-color: rgba(255, 255, 255, 0.15);
 }
 .overlay:after {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(42, 46, 55, 0.85);
 }
 #masthead {
   background-color: #1e1e1f;
@@ -467,11 +468,11 @@ html {
 }
 /* - Brand - */
 .brand img {
-  max-height: 120px;
+  margin-bottom: 15px;
 }
 /* - Blog title and description - */
 .blog-title {
-  font-size: 36px;
+  font-size: 28px;
   line-height: 36px;
   text-transform: uppercase;
   margin-bottom: 12px;
@@ -557,6 +558,7 @@ html {
 .post-avatar {
   max-width: 150px;
   margin: 0 auto 12px;
+  border: 1px solid #ccc;
 }
 /* -  Pagination - */
 .pagination {
@@ -778,7 +780,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 h1.lighter,
 h2.lighter,
@@ -786,7 +788,7 @@ h3.lighter,
 h4.lighter,
 h5.lighter,
 h6.lighter {
-  font-weight: 200 !important;
+  font-weight: 300 !important;
 }
 /* ---------- */
 /* ANIMATIONS */
@@ -3866,7 +3868,7 @@ a#slide:hover{
     }
 
 a#slide:after{
-    content:"F"
+    content:"M"
     }
 
 a#slide.slide:after{

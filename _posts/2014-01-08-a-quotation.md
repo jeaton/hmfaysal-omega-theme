@@ -2,7 +2,7 @@
 layout: post
 type: quote
 title: "Sample Quotation Post"
-description: See the rest of the post about Albert Einstein
+description: 
 headline: 
 category: Sample-Posts
 tags: [sample post, quotation]

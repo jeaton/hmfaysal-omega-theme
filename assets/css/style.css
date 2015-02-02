@@ -1,7 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,700);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,100,700);
-@import url(http://fonts.googleapis.com/css?family=Sacramento);
 
 /*!
  * HMFAYSAL OMEGA v1.0.1
@@ -109,9 +107,9 @@ blockquote:before {
   width: 4px;
 }
 .cursive {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Merriweather', serif;
   color: #17e4d8;
-  font-size: 34px;
+  font-size: 22px;
   text-align: center;
 }
 /* - Form elements - */
@@ -240,7 +238,7 @@ pre {
   line-height: 24px;
 }
 .super {
-  font-size: 44px;
+  font-size: 42px;
   font-weight: bold;
   line-height: 1;
   text-transform: uppercase;
@@ -250,7 +248,7 @@ pre {
   line-height: 1.5em;
 }
 .hyper {
-  font-size: 44px;
+  font-size: 42px;
   font-weight: bold;
   text-align: center;
   line-height: 1;
@@ -557,7 +555,7 @@ html {
 /* - Post Avatar - */
 .post-avatar {
   max-width: 150px;
-  margin: 0 auto 12px;
+  margin: 0 auto 18px;
   border: 1px solid #ccc;
 }
 /* -  Pagination - */
@@ -3856,7 +3854,7 @@ a#slide{
     top:10px;
     left:10px;
     text-align:center;
-    font:22px/40px "icon";
+    font:22px/42px "icon";
     color:#fff;
     background:#262626;
     border-radius:3px;

@@ -89,8 +89,8 @@ a:hover {
 }
 /* - Lead text - */
 .lead {
-  font-size: 21px;
-  line-height: 2em;
+  font-size: 20px;
+  line-height: 36px;
 }
 /* - Blockquote - */
 blockquote {
@@ -481,7 +481,7 @@ html {
 .blog-description {
   text-transform: none;
   padding-top: 12px;
-  margin-top: 12px;
+  margin-top: 18px;
   font-size: 18px;
 }
 #main {

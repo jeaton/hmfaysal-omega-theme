@@ -1,6 +1,7 @@
 title:            Launchhouse Demo Day 2015
 description:      "Powered by beegit.com"
 logo:             logo.png
+disqus_shortname: launchhousedemodaycom
 # Assign a default image for your site's header and footer
 default_bg:       site-bg.jpg
 search:           true
@@ -69,7 +70,8 @@ paginate_path: "page:num"
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
-kramdown:
+kramdown: 
+  input: GFM
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char

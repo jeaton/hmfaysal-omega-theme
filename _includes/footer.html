@@ -1,7 +1,12 @@
 {% if page.imagefeature %}
-<footer id="footer"  class="blog-background overlay text-center align-middle animated from-top" style="background-image: url({{ site.url }}/images/{{ page.imagefeature }})" >
+    {% if page.imagefeature contains 'http' %}
+        {% capture imagefeatureuri %}{{ page.imagefeature }}{% endcapture %}
+    {% else %}
+        {% capture imagefeatureuri %}{{ site.url }}/images/{{ page.imagefeature }}{% endcapture %}
+    {% endif %}
+    <footer id="footer"  class="blog-background overlay text-center align-middle animated from-top" style="background-image: url({{ imagefeatureuri }})" >
 {% else %}
-<footer id="footer"  class="blog-background overlay text-center align-middle animated from-top" style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" >
+    <footer id="footer"  class="blog-background overlay text-center align-middle animated from-top" style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" >
 {% endif %}
 
     <div class="inner">

@@ -1,10 +1,9 @@
 ---
 
 layout: post
-type: quote
+type: 
 title: Sample Quotation Post
-tags: [sample post, quotation]
-imagefeature: site-bg.jpg
+tags: [all posts, quotation]
 comments: true
 
 ---

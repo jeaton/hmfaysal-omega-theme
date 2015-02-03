@@ -106,10 +106,6 @@ prose:
           options:
             - name: "Standard"
               value: 
-            - name: "Quote"
-              value: quote
-            - name: "Status"
-              value: status
             - name: "Photo"
               value: photo
             - name: "Video"

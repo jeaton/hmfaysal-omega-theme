@@ -301,7 +301,7 @@ pre {
     left: 0;
   }
   .super {
-    font-size: 48px;
+    font-size: 42px;
     text-align: center;
   }
   .super small {
@@ -309,7 +309,7 @@ pre {
     display: block;
   }
   .hyper {
-    font-size: 60px;
+    font-size: 42px;
   }
   .small-screen-center {
     text-align: center !important;
@@ -320,11 +320,11 @@ pre {
 }
 @media (max-width: 480px) {
   .super {
-    font-size: 36px;
+    font-size: 32px;
     line-superheight: 1em;
   }
   .hyper {
-    font-size: 48px;
+    font-size: 32px;
     line-height: 1em;
   }
   .lead {
